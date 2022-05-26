@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","sans-serif";
+}
+body{
+    background: #43AFFc;
+}
+#main1 {
+    visibility: visible;
+    min-height: 310px;
+    background:#fff;
+    position: relative;
+    border-radius: 7px;
+    margin-top:150px;
+}
+#header:first-child,p{
+    color: #43AFFc;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+}
+#blackline {
+    height: 1px;
+    background-color: black;
+    margin-top: 5px;
+}
+#contents {
+    min-height: 200px;
+    margin-top:20px ;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    position: relative;
+}
+#line {
+    height: 10px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+}
+.btn{
+    display: block;
+}
+.btn button{
+    padding-bottom: 15px;
+    background: #43AFFc;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    height: 60px;
+}
+
+.showWeather {
+    visibility: hidden;
+    min-height: 450px;
+    background:#fff;
+    border-radius: 7px;
+    position: relative;
+    top: -310px;
+}
+
+.showWeather #arrow {
+   color: #43AFFc;
+   padding: 20px 0 10px 10px;
+}
+#temperature{
+    display: flex;
+    font-size: 72px;
+    font-weight: 500;
+}
+#numb{
+    font-weight: 600;
+}
+#temperature #deg{
+    font-size: 40px;
+}
+#location,#description {
+    font-size: 50px;
+    font-weight: 500px;
+}
+#arrow span{
+    cursor: pointer;
+}
